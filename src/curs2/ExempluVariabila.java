@@ -29,7 +29,7 @@ public class ExempluVariabila {
 		//System.out.println(age);
 		
 		ExempluVariabila obj = new ExempluVariabila();
-		System.out.println(obj.age);
+		System.out.println(obj.age); //daca nu fac asta nu imi printeaza rezultatul din metoda!!!
 		
 	}
 

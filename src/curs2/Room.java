@@ -6,6 +6,7 @@ public class Room {
 	//variabile
 	private double lungime;
 	private double latime;
+	String culoare = "alb"; 
 	
 	//constructor cu parametri
 	public Room(double lungime, double latime) {
@@ -26,5 +27,6 @@ public class Room {
 		
 	}
 	
+
 
 }

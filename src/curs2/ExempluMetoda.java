@@ -24,10 +24,10 @@ public class ExempluMetoda {
 	
 	public int calculArie(int latime, int lungime) {
 		int arieRoom =  latime * lungime;
-		return arieRoom;
+		return arieRoom; //apare mereu la public int si returneaza
 	}
 	
-	int perimetru;
+	int perimetru; //ca sa refolosesc rezultatul folosesc varianta asta a doua
 	
 	public void calculPerimetru(int latime, int lungime) {
 		perimetru = 2 * (latime + lungime);
